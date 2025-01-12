@@ -25,7 +25,7 @@ return [
 
     'allowed_methods' => ['*'],
 
-    'allowed_origins' => ['*'],
+    'allowed_origins' => ['https://brewtique-dg3e.vercel.app'],
 
     'allowed_origins_patterns' => [],
 
