@@ -22,7 +22,6 @@ class AppServiceProvider extends ServiceProvider
     public function boot(): void
     {
         //
-        config(['api.base_url' => env('http://brewtique-laravel-production.up.railway.app')]);
     }
 
 }
