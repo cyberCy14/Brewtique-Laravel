@@ -54,3 +54,9 @@ Route::middleware('auth:sanctum')->group(function () {
     Route::resource('order-items', OrderItemController::class)->middleware('auth');
 
 });
+
+
+Route::get('/test', function () {
+    return response()->json(['message' => 'Test route working!']);
+});
+
