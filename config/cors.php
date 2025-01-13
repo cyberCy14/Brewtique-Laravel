@@ -25,7 +25,7 @@ return [
 
     'allowed_methods' => ['*'],
 
-    'allowed_origins' => ['http://localhost:5173', 'https://brewtique-dg3e.vercel.app', 'https://brewtique-if5y.vercel.app', 'https://brewtique-laravel-production.up.railway.app'],
+    'allowed_origins' => ['http://localhost:5173', 'https://brewtique-dg3e.vercel.app', 'https://brewtique-laravel-production.up.railway.app'],
 
     'allowed_origins_patterns' => [],
 
